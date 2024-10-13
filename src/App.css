@@ -1,0 +1,119 @@
+/* General Styles */
+body{
+  padding-bottom: 450px;
+  font-family: Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.profile-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Admin Panel Styling */
+.admin-panel {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+.admin-panel h2 {
+  margin-bottom: 20px;
+}
+.admin-panel input{
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.admin-panel button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-panel li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.admin-panel li div {
+  margin-bottom: 5px;
+}
+
+.admin-panel li button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.admin-panel li button:last-child {
+  background-color: #dc3545;
+}
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  width: 1024px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+
